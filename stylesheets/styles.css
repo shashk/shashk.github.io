@@ -215,8 +215,11 @@ header ul a:hover {
   background-color: #2a2a2a; /* Slightly lighter background on hover */
 }
 
-header ul a:active {
+header ul a:active,
+header ul a.active {
   background-color: #252525; /* Darker background on active */
+  color: #ffffff;
+  font-weight: bold;
 }
 
 strong {
